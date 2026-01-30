@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "Alta em até 10h por unidade da FHEMIG.",
       "dialect": {
         "delimiter": ";"
       },
@@ -18,32 +18,38 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
           },
           {
             "name": "ano",
-            "type": "integer"
+            "type": "integer",
+            "description": "Ano de referência."
           },
           {
             "name": "mes",
-            "type": "integer"
+            "type": "integer",
+            "description": "Mês de referência."
           },
           {
             "name": "altas_ate_10h",
-            "type": "integer"
+            "type": "integer",
+            "description": "Altas até 10h (altas que liberam leitos na parte da manhã, até as 10 horas)."
           },
           {
             "name": "saidas",
-            "type": "integer"
+            "type": "integer",
+            "description": "Saídas (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
           },
           {
             "name": "tx_alta_ate_10h",
-            "type": "string"
+            "type": "string",
+            "description": "Taxa de Alta Médica até 10h (porcentagem de pacientes que recebem alta e liberam leitos na parte da manhã, até as 10 horas)."
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Altas até 10h por unidade da FHEMIG."
     }
   ],
   "title": "Alta em ate 10h"
