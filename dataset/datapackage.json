@@ -34,17 +34,17 @@
           {
             "name": "altas_ate_10h",
             "type": "integer",
-            "description": "Altas até 10h (altas que liberam leitos na parte da manhã, até as 10 horas)."
+            "description": "Total de pacientes que deram saída em até 10 horas após a internação"
           },
           {
             "name": "saidas",
             "type": "integer",
-            "description": "Saídas (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
+            "description": "Total de saídas hospitalares (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
           },
           {
             "name": "tx_alta_ate_10h",
             "type": "string",
-            "description": "Taxa de Alta Médica até 10h (porcentagem de pacientes que recebem alta e liberam leitos na parte da manhã, até as 10 horas)."
+            "description": "Taxa de Alta Médica até 10h (proporção de pacientes que deram saída em até 10h após a internação em relação ao total de saídas)."
           }
         ]
       },
