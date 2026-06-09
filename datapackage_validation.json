@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.043,
+  "time": 0.054,
   "errors": [],
   "tasks": [
     {
@@ -52,13 +52,13 @@
         "scheme": "file",
         "title": "Altas até 10h da manhã por unidade da FHEMIG",
         "stats": {
-          "hash": "bbff2709b7f8e0cc2398d9fee472e7a6",
-          "bytes": 53735,
+          "hash": "51ff3f0bc20c5ce188e2d47025f9c2a4",
+          "bytes": 54307,
           "fields": 6,
-          "rows": 1461
+          "rows": 1476
         }
       },
-      "time": 0.034,
+      "time": 0.044,
       "scope": [
         "hash-count-error",
         "byte-count-error",
