@@ -32,6 +32,11 @@
             "description": "Mês de referência."
           },
           {
+            "name": "setor_centro_custo",
+            "type": "integer",
+            "description": "Setor hospitalar (Tasy) ou Centro de Custo (SIGH)."
+          },
+          {
             "name": "altas_ate_10h",
             "type": "integer",
             "description": "Total de pacientes que deram saída até às 10h da manhã."
